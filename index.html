@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MZBRN - Creative Frontend Developer Portfolio. Specialized in creating interactive and responsive web experiences with modern technologies including HTML5, CSS3, JavaScript, PHP, Python, and React.">
+    <meta name="keywords" content="MZBRN, Frontend Developer, Web Developer, HTML, CSS, JavaScript, PHP, Python, React, Creative Developer, Web Design, Interactive Websites, Portfolio, UI/UX, Web Development, Responsive Design">
+    <meta property="og:title" content="MZBRN - Creative Frontend Developer">
+    <meta property="og:description" content="Creative Frontend Developer specializing in interactive and responsive web experiences">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mazbron.net">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MZBRN - Creative Frontend Developer">
+    <meta name="twitter:description" content="Creative Frontend Developer specializing in interactive and responsive web experiences">
+    <meta name="author" content="MZBRN">
+    <meta name="theme-color" content="#0a0a0a">
+    <title>MZBRN - Creative Developer Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="alternate icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="code-background"></div>
+    
+    <div class="container">
+        <div class="text-glitch" data-text="CREATIVE">CREATIVE</div>
+        <div class="text-glitch" data-text="DEVELOPER">DEVELOPER</div>
+        
+        <div class="info">
+            <div class="name">MZBRN</div>
+            <div class="role">Frontend Developer</div>
+        </div>
+
+        <div class="button-container">
+            <button class="glow-button skills-btn">Skills</button>
+            <button class="glow-button contact-btn">Contact</button>
+        </div>
+
+        <!-- Skills Modal -->
+        <div class="modal skills-modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>My Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-item" data-progress="90">
+                        <span class="skill-name">HTML</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-progress="85">
+                        <span class="skill-name">CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-progress="80">
+                        <span class="skill-name">JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-progress="85">
+                        <span class="skill-name">PHP</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-progress="82">
+                        <span class="skill-name">Python</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-progress="75">
+                        <span class="skill-name">React</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Modal -->
+        <div class="modal contact-modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>Contact Me</h2>
+                <form class="contact-form" id="contact-form">
+                    <div class="input-group">
+                        <input type="text" name="user_name" required>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" name="user_email" required>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea name="message" required></textarea>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Message</label>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span class="btn-text">Send Message</span>
+                        <span class="loading-spinner"></span>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="social-links">
+            <a href="https://github.com" target="_blank" class="social-link">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="social-link">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <!-- <a href="https://twitter.com" target="_blank" class="social-link">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a> -->
+            <a href="https://wa.me/6285155225507" target="_blank" class="social-link">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+
+        <div class="floating-shapes">
+            <div class="shape shape1"></div>
+            <div class="shape shape2"></div>
+            <div class="shape shape3"></div>
+            <div class="shape shape4"></div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
