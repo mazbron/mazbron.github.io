@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
@@ -10,8 +9,7 @@
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<!DOCTYPE html>
+
 <html >
   <head>
     <meta charset="UTF-8">
